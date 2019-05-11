@@ -1,0 +1,136 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/minhpham/Desktop/ERMiner ver2/AlgoERMiner.cpp
+Sequence.h
+/Users/minhpham/Desktop/ERMiner ver2/Sequence.h
+SequenceDatabase.h
+/Users/minhpham/Desktop/ERMiner ver2/SequenceDatabase.h
+Occurence.h
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+LeftRule.h
+/Users/minhpham/Desktop/ERMiner ver2/LeftRule.h
+RightRule.h
+/Users/minhpham/Desktop/ERMiner ver2/RightRule.h
+RightEquivalenceClass.h
+/Users/minhpham/Desktop/ERMiner ver2/RightEquivalenceClass.h
+LeftEquivalenceClass.h
+/Users/minhpham/Desktop/ERMiner ver2/LeftEquivalenceClass.h
+AlgoERMiner.h
+/Users/minhpham/Desktop/ERMiner ver2/AlgoERMiner.h
+iostream
+-
+vector
+-
+map
+-
+iterator
+-
+fstream
+-
+string
+-
+algorithm
+-
+math.h
+-
+
+/Users/minhpham/Desktop/ERMiner ver2/AlgoERMiner.h
+map
+-
+iostream
+-
+fstream
+-
+SequenceDatabase.h
+/Users/minhpham/Desktop/ERMiner ver2/SequenceDatabase.h
+Occurence.h
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+SparseMatrix.h
+/Users/minhpham/Desktop/ERMiner ver2/SparseMatrix.h
+ExpandLeftStore.h
+/Users/minhpham/Desktop/ERMiner ver2/ExpandLeftStore.h
+
+/Users/minhpham/Desktop/ERMiner ver2/ExpandLeftStore.h
+map
+-
+vector
+-
+typeinfo
+-
+LeftEquivalenceClass.h
+/Users/minhpham/Desktop/ERMiner ver2/LeftEquivalenceClass.h
+LeftRule.h
+/Users/minhpham/Desktop/ERMiner ver2/LeftRule.h
+Occurence.h
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+
+/Users/minhpham/Desktop/ERMiner ver2/LeftEquivalenceClass.h
+iostream
+-
+vector
+-
+map
+-
+Occurence.h
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+LeftRule.h
+/Users/minhpham/Desktop/ERMiner ver2/LeftRule.h
+
+/Users/minhpham/Desktop/ERMiner ver2/LeftRule.h
+set
+-
+iostream
+-
+vector
+-
+
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+
+/Users/minhpham/Desktop/ERMiner ver2/RightEquivalenceClass.h
+iostream
+-
+vector
+-
+set
+-
+map
+-
+Occurence.h
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+RightRule.h
+/Users/minhpham/Desktop/ERMiner ver2/RightRule.h
+
+/Users/minhpham/Desktop/ERMiner ver2/RightRule.h
+set
+-
+iostream
+-
+vector
+-
+map
+-
+Occurence.h
+/Users/minhpham/Desktop/ERMiner ver2/Occurence.h
+
+/Users/minhpham/Desktop/ERMiner ver2/Sequence.h
+vector
+-
+
+/Users/minhpham/Desktop/ERMiner ver2/SequenceDatabase.h
+vector
+-
+set
+-
+Sequence.h
+/Users/minhpham/Desktop/ERMiner ver2/Sequence.h
+
+/Users/minhpham/Desktop/ERMiner ver2/SparseMatrix.h
+map
+-
+

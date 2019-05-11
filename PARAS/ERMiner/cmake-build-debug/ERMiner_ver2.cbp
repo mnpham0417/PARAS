@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ERMiner_ver2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ERMiner_ver2">
+				<Option output="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug/ERMiner_ver2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ERMiner_ver2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ERMiner_ver2/fast">
+				<Option output="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug/ERMiner_ver2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/minhpham/Desktop/ERMiner ver2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ERMiner_ver2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/minhpham/Desktop/ERMiner\ ver2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/AlgoERMiner.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/AlgoERMiner.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/ExpandLeftStore.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/ExpandLeftStore.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/LeftEquivalenceClass.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/LeftEquivalenceClass.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/LeftRule.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/LeftRule.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/Occurence.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/Occurence.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/RightEquivalenceClass.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/RightEquivalenceClass.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/RightRule.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/RightRule.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/Sequence.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/Sequence.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/SequenceDatabase.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/SequenceDatabase.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/SparseMatrix.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/SparseMatrix.h">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/main.cpp">
+			<Option target="ERMiner_ver2"/>
+		</Unit>
+		<Unit filename="/Users/minhpham/Desktop/ERMiner ver2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

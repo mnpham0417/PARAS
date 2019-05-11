@@ -1,0 +1,16 @@
+ID,Class,Stability,Error,Sign,Wind,Magnitude,Visibility
+1,auto,*,*,*,*,*,no
+2,manual,xstab,*,*,*,*,yes
+3,manual,stab,LX,*,*,*,yes
+4,manual,stab,XL,*,*,*,yes
+5,manual,stab,MM,nn,tail,*,yes
+6,manual,*,*,*,*,OutOfRandge,yes
+7,auto,stab,SS,*,*,Low,yes
+8,auto,stab,SS,*,*,Medium,yes
+9,auto,stab,SS,*,*,Strong,yes
+10,auto,stab,MM,pp,head,Low,yes
+11,auto,stab,MM,pp,head,Medium,yes
+12,auto,stab,MM,pp,tail,Low,yes
+13,auto,stab,MM,pp,tail,Medium,yes
+14,manual,stab,MM,pp,head,Strong,yes
+15,auto,stab,MM,pp,tail,Strong,yes
