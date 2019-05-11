@@ -1,0 +1,3 @@
+/home/minhpham/Desktop/ERMiner/CMakeFiles/rebuild_cache.dir
+/home/minhpham/Desktop/ERMiner/CMakeFiles/edit_cache.dir
+/home/minhpham/Desktop/ERMiner/CMakeFiles/ERMiner_ver2.dir
