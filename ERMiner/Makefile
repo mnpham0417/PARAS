@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/minhpham/Desktop/ERMiner
+CMAKE_SOURCE_DIR = /home/mnpham/Desktop/PARAS/ERMiner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/minhpham/Desktop/ERMiner
+CMAKE_BINARY_DIR = /home/mnpham/Desktop/PARAS/ERMiner
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/minhpham/Desktop/ERMiner/CMakeFiles /home/minhpham/Desktop/ERMiner/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mnpham/Desktop/PARAS/ERMiner/CMakeFiles /home/mnpham/Desktop/PARAS/ERMiner/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/minhpham/Desktop/ERMiner/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mnpham/Desktop/PARAS/ERMiner/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ERMiner_ver2
+# Target rules for targets named ERMiner
 
 # Build rule for target.
-ERMiner_ver2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ERMiner_ver2
-.PHONY : ERMiner_ver2
+ERMiner: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ERMiner
+.PHONY : ERMiner
 
 # fast build rule for target.
-ERMiner_ver2/fast:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/build
-.PHONY : ERMiner_ver2/fast
+ERMiner/fast:
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/build
+.PHONY : ERMiner/fast
 
 AlgoERMiner.o: AlgoERMiner.cpp.o
 
@@ -129,7 +129,7 @@ AlgoERMiner.o: AlgoERMiner.cpp.o
 
 # target to build an object file
 AlgoERMiner.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/AlgoERMiner.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/AlgoERMiner.cpp.o
 .PHONY : AlgoERMiner.cpp.o
 
 AlgoERMiner.i: AlgoERMiner.cpp.i
@@ -138,7 +138,7 @@ AlgoERMiner.i: AlgoERMiner.cpp.i
 
 # target to preprocess a source file
 AlgoERMiner.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/AlgoERMiner.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/AlgoERMiner.cpp.i
 .PHONY : AlgoERMiner.cpp.i
 
 AlgoERMiner.s: AlgoERMiner.cpp.s
@@ -147,7 +147,7 @@ AlgoERMiner.s: AlgoERMiner.cpp.s
 
 # target to generate assembly for a file
 AlgoERMiner.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/AlgoERMiner.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/AlgoERMiner.cpp.s
 .PHONY : AlgoERMiner.cpp.s
 
 ExpandLeftStore.o: ExpandLeftStore.cpp.o
@@ -156,7 +156,7 @@ ExpandLeftStore.o: ExpandLeftStore.cpp.o
 
 # target to build an object file
 ExpandLeftStore.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/ExpandLeftStore.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/ExpandLeftStore.cpp.o
 .PHONY : ExpandLeftStore.cpp.o
 
 ExpandLeftStore.i: ExpandLeftStore.cpp.i
@@ -165,7 +165,7 @@ ExpandLeftStore.i: ExpandLeftStore.cpp.i
 
 # target to preprocess a source file
 ExpandLeftStore.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/ExpandLeftStore.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/ExpandLeftStore.cpp.i
 .PHONY : ExpandLeftStore.cpp.i
 
 ExpandLeftStore.s: ExpandLeftStore.cpp.s
@@ -174,7 +174,7 @@ ExpandLeftStore.s: ExpandLeftStore.cpp.s
 
 # target to generate assembly for a file
 ExpandLeftStore.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/ExpandLeftStore.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/ExpandLeftStore.cpp.s
 .PHONY : ExpandLeftStore.cpp.s
 
 LeftEquivalenceClass.o: LeftEquivalenceClass.cpp.o
@@ -183,7 +183,7 @@ LeftEquivalenceClass.o: LeftEquivalenceClass.cpp.o
 
 # target to build an object file
 LeftEquivalenceClass.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/LeftEquivalenceClass.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/LeftEquivalenceClass.cpp.o
 .PHONY : LeftEquivalenceClass.cpp.o
 
 LeftEquivalenceClass.i: LeftEquivalenceClass.cpp.i
@@ -192,7 +192,7 @@ LeftEquivalenceClass.i: LeftEquivalenceClass.cpp.i
 
 # target to preprocess a source file
 LeftEquivalenceClass.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/LeftEquivalenceClass.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/LeftEquivalenceClass.cpp.i
 .PHONY : LeftEquivalenceClass.cpp.i
 
 LeftEquivalenceClass.s: LeftEquivalenceClass.cpp.s
@@ -201,7 +201,7 @@ LeftEquivalenceClass.s: LeftEquivalenceClass.cpp.s
 
 # target to generate assembly for a file
 LeftEquivalenceClass.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/LeftEquivalenceClass.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/LeftEquivalenceClass.cpp.s
 .PHONY : LeftEquivalenceClass.cpp.s
 
 LeftRule.o: LeftRule.cpp.o
@@ -210,7 +210,7 @@ LeftRule.o: LeftRule.cpp.o
 
 # target to build an object file
 LeftRule.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/LeftRule.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/LeftRule.cpp.o
 .PHONY : LeftRule.cpp.o
 
 LeftRule.i: LeftRule.cpp.i
@@ -219,7 +219,7 @@ LeftRule.i: LeftRule.cpp.i
 
 # target to preprocess a source file
 LeftRule.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/LeftRule.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/LeftRule.cpp.i
 .PHONY : LeftRule.cpp.i
 
 LeftRule.s: LeftRule.cpp.s
@@ -228,7 +228,7 @@ LeftRule.s: LeftRule.cpp.s
 
 # target to generate assembly for a file
 LeftRule.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/LeftRule.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/LeftRule.cpp.s
 .PHONY : LeftRule.cpp.s
 
 Occurence.o: Occurence.cpp.o
@@ -237,7 +237,7 @@ Occurence.o: Occurence.cpp.o
 
 # target to build an object file
 Occurence.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/Occurence.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/Occurence.cpp.o
 .PHONY : Occurence.cpp.o
 
 Occurence.i: Occurence.cpp.i
@@ -246,7 +246,7 @@ Occurence.i: Occurence.cpp.i
 
 # target to preprocess a source file
 Occurence.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/Occurence.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/Occurence.cpp.i
 .PHONY : Occurence.cpp.i
 
 Occurence.s: Occurence.cpp.s
@@ -255,7 +255,7 @@ Occurence.s: Occurence.cpp.s
 
 # target to generate assembly for a file
 Occurence.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/Occurence.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/Occurence.cpp.s
 .PHONY : Occurence.cpp.s
 
 RightEquivalenceClass.o: RightEquivalenceClass.cpp.o
@@ -264,7 +264,7 @@ RightEquivalenceClass.o: RightEquivalenceClass.cpp.o
 
 # target to build an object file
 RightEquivalenceClass.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/RightEquivalenceClass.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/RightEquivalenceClass.cpp.o
 .PHONY : RightEquivalenceClass.cpp.o
 
 RightEquivalenceClass.i: RightEquivalenceClass.cpp.i
@@ -273,7 +273,7 @@ RightEquivalenceClass.i: RightEquivalenceClass.cpp.i
 
 # target to preprocess a source file
 RightEquivalenceClass.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/RightEquivalenceClass.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/RightEquivalenceClass.cpp.i
 .PHONY : RightEquivalenceClass.cpp.i
 
 RightEquivalenceClass.s: RightEquivalenceClass.cpp.s
@@ -282,7 +282,7 @@ RightEquivalenceClass.s: RightEquivalenceClass.cpp.s
 
 # target to generate assembly for a file
 RightEquivalenceClass.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/RightEquivalenceClass.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/RightEquivalenceClass.cpp.s
 .PHONY : RightEquivalenceClass.cpp.s
 
 RightRule.o: RightRule.cpp.o
@@ -291,7 +291,7 @@ RightRule.o: RightRule.cpp.o
 
 # target to build an object file
 RightRule.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/RightRule.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/RightRule.cpp.o
 .PHONY : RightRule.cpp.o
 
 RightRule.i: RightRule.cpp.i
@@ -300,7 +300,7 @@ RightRule.i: RightRule.cpp.i
 
 # target to preprocess a source file
 RightRule.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/RightRule.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/RightRule.cpp.i
 .PHONY : RightRule.cpp.i
 
 RightRule.s: RightRule.cpp.s
@@ -309,7 +309,7 @@ RightRule.s: RightRule.cpp.s
 
 # target to generate assembly for a file
 RightRule.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/RightRule.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/RightRule.cpp.s
 .PHONY : RightRule.cpp.s
 
 Sequence.o: Sequence.cpp.o
@@ -318,7 +318,7 @@ Sequence.o: Sequence.cpp.o
 
 # target to build an object file
 Sequence.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/Sequence.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/Sequence.cpp.o
 .PHONY : Sequence.cpp.o
 
 Sequence.i: Sequence.cpp.i
@@ -327,7 +327,7 @@ Sequence.i: Sequence.cpp.i
 
 # target to preprocess a source file
 Sequence.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/Sequence.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/Sequence.cpp.i
 .PHONY : Sequence.cpp.i
 
 Sequence.s: Sequence.cpp.s
@@ -336,7 +336,7 @@ Sequence.s: Sequence.cpp.s
 
 # target to generate assembly for a file
 Sequence.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/Sequence.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/Sequence.cpp.s
 .PHONY : Sequence.cpp.s
 
 SequenceDatabase.o: SequenceDatabase.cpp.o
@@ -345,7 +345,7 @@ SequenceDatabase.o: SequenceDatabase.cpp.o
 
 # target to build an object file
 SequenceDatabase.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/SequenceDatabase.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/SequenceDatabase.cpp.o
 .PHONY : SequenceDatabase.cpp.o
 
 SequenceDatabase.i: SequenceDatabase.cpp.i
@@ -354,7 +354,7 @@ SequenceDatabase.i: SequenceDatabase.cpp.i
 
 # target to preprocess a source file
 SequenceDatabase.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/SequenceDatabase.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/SequenceDatabase.cpp.i
 .PHONY : SequenceDatabase.cpp.i
 
 SequenceDatabase.s: SequenceDatabase.cpp.s
@@ -363,7 +363,7 @@ SequenceDatabase.s: SequenceDatabase.cpp.s
 
 # target to generate assembly for a file
 SequenceDatabase.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/SequenceDatabase.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/SequenceDatabase.cpp.s
 .PHONY : SequenceDatabase.cpp.s
 
 SparseMatrix.o: SparseMatrix.cpp.o
@@ -372,7 +372,7 @@ SparseMatrix.o: SparseMatrix.cpp.o
 
 # target to build an object file
 SparseMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/SparseMatrix.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/SparseMatrix.cpp.o
 .PHONY : SparseMatrix.cpp.o
 
 SparseMatrix.i: SparseMatrix.cpp.i
@@ -381,7 +381,7 @@ SparseMatrix.i: SparseMatrix.cpp.i
 
 # target to preprocess a source file
 SparseMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/SparseMatrix.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/SparseMatrix.cpp.i
 .PHONY : SparseMatrix.cpp.i
 
 SparseMatrix.s: SparseMatrix.cpp.s
@@ -390,7 +390,7 @@ SparseMatrix.s: SparseMatrix.cpp.s
 
 # target to generate assembly for a file
 SparseMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/SparseMatrix.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/SparseMatrix.cpp.s
 .PHONY : SparseMatrix.cpp.s
 
 main.o: main.cpp.o
@@ -399,7 +399,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -408,7 +408,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -417,7 +417,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -427,8 +427,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... ERMiner"
 	@echo "... edit_cache"
-	@echo "... ERMiner_ver2"
 	@echo "... AlgoERMiner.o"
 	@echo "... AlgoERMiner.i"
 	@echo "... AlgoERMiner.s"

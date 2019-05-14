@@ -59,45 +59,45 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/minhpham/Desktop/ERMiner
+CMAKE_SOURCE_DIR = /home/mnpham/Desktop/PARAS/ERMiner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/minhpham/Desktop/ERMiner
+CMAKE_BINARY_DIR = /home/mnpham/Desktop/PARAS/ERMiner
 
 #=============================================================================
-# Target rules for target CMakeFiles/ERMiner_ver2.dir
+# Target rules for target CMakeFiles/ERMiner.dir
 
 # All Build rule for target.
-CMakeFiles/ERMiner_ver2.dir/all:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/depend
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/minhpham/Desktop/ERMiner/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target ERMiner_ver2"
-.PHONY : CMakeFiles/ERMiner_ver2.dir/all
+CMakeFiles/ERMiner.dir/all:
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/depend
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mnpham/Desktop/PARAS/ERMiner/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target ERMiner"
+.PHONY : CMakeFiles/ERMiner.dir/all
 
 # Include target in all.
-all: CMakeFiles/ERMiner_ver2.dir/all
+all: CMakeFiles/ERMiner.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ERMiner_ver2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/minhpham/Desktop/ERMiner/CMakeFiles 12
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ERMiner_ver2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/minhpham/Desktop/ERMiner/CMakeFiles 0
-.PHONY : CMakeFiles/ERMiner_ver2.dir/rule
+CMakeFiles/ERMiner.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mnpham/Desktop/PARAS/ERMiner/CMakeFiles 12
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ERMiner.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mnpham/Desktop/PARAS/ERMiner/CMakeFiles 0
+.PHONY : CMakeFiles/ERMiner.dir/rule
 
 # Convenience name for target.
-ERMiner_ver2: CMakeFiles/ERMiner_ver2.dir/rule
+ERMiner: CMakeFiles/ERMiner.dir/rule
 
-.PHONY : ERMiner_ver2
-
-# clean rule for target.
-CMakeFiles/ERMiner_ver2.dir/clean:
-	$(MAKE) -f CMakeFiles/ERMiner_ver2.dir/build.make CMakeFiles/ERMiner_ver2.dir/clean
-.PHONY : CMakeFiles/ERMiner_ver2.dir/clean
+.PHONY : ERMiner
 
 # clean rule for target.
-clean: CMakeFiles/ERMiner_ver2.dir/clean
+CMakeFiles/ERMiner.dir/clean:
+	$(MAKE) -f CMakeFiles/ERMiner.dir/build.make CMakeFiles/ERMiner.dir/clean
+.PHONY : CMakeFiles/ERMiner.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ERMiner.dir/clean
 
 .PHONY : clean
 
